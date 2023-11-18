@@ -1,7 +1,7 @@
 
 export const Navbar = () => {
   return (
-    <div className="fixed w-full z-10">
+    <div className="w-full">
       <div className="flex w-full shadow-md">
         <div className="m-2 ml-6">
           <div className="font-[560] text-lg">

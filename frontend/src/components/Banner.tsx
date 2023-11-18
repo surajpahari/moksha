@@ -1,6 +1,6 @@
 export const Banner = () => {
   return (
-    <div>
+    <div className="z-10">
       <div className="h-[500px] w-full bg-green-500">
         <div className="flex w-full h-full items-center ">
           <div className="flex-col ml-14 mt-20">
