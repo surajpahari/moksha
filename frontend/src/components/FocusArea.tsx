@@ -1,13 +1,13 @@
-import { ServiceCards } from "./cards/ServiceCards"
-export const Services = () => {
+
+export const FocusArea = () => {
   return (
-    <div className="bg-gray-100 pt-16 pb-4">
+    <div className="bg-gray-200 pt-16 pb-4">
       <div>
         {/*header and intro for the services*/}
         <div className="w-full flex justify-center">
           <div>
             <div className="my-6 text-center text-xs text-orange-500 font-medium">
-              SERVICES
+              OUR FOCUS AREA
             </div>
             <div className="text-center font-[450] mb-2">
               Geomatics Excellence  Unleashed
@@ -23,24 +23,11 @@ export const Services = () => {
         {/*services card*/}
         <div className="mt-16">
           <div className="p-2 flex items-center justify-center">
-            <ServiceCards />
-            <ServiceCards />
-            <ServiceCards />
-            <ServiceCards />
           </div>
           <div className="text-center text-gray-600 text-xs mt-10">
             SHOW MORE
           </div>
-          <div className="dropdown dropdown-hover">
-            <label tabIndex={0} className="m-1">Hover</label>
-            <ul tabIndex={0} className="dropdown-content z-[1]  text-black menu p-2 shadow white  w-52">
-              <li><a>Item 1</a></li>
-              <li><a>Item 2</a></li>
-            </ul>
-          </div>
-
         </div>
       </div>
-    </div>
-  )
+    </div>)
 }
