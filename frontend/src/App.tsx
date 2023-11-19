@@ -15,12 +15,10 @@ function App() {
 
   return (
     <>
-      <div className='fixed w-full  h-[60px] z-10 bg-white'>
+      <div className='fixed w-full  h-[50px] z-10 bg-white'>
         <Navbar />
-
-
       </div>
-      <div className='absolute w-full top-[60px] left-0 z-0'>
+      <div className='absolute w-full top-[50px] left-0 z-0'>
         <Banner />
         <Services />
         <AboutUs />

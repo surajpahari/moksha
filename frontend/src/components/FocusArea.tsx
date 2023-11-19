@@ -1,22 +1,87 @@
 
 export const FocusArea = () => {
   return (
-    <div className="bg-gray-200 pt-16 pb-4">
+    <div className="bg-moksha-gray py-24">
       <div>
         {/*header and intro for the services*/}
         <div className="w-full flex justify-center">
           <div>
-            <div className="my-6 text-center text-xs text-orange-500 font-medium">
+            <div className="mb-10 text-center text-sm text-orange-500 font-medium">
               OUR FOCUS AREA
             </div>
-            <div className="text-center font-[450] mb-2">
-              Geomatics Excellence  Unleashed
+            <div className="mb-14">
+              <div className="text-center text-sm text-gray-500">
+                Our work with the use of different tools and technologies can<br /> impact multiple sectors.
+              </div>
             </div>
-            <div className="text-xs text-gray-500">
-              Explore a comphrehensive array of Geomatics services metriculosly tailored to
-            </div>
-            <div className="text-center text-xs text-gray-500">
-              meet evolving need of our client
+            <div className="flex justify-center w-full gap-3 text-moksha-black">
+              <div className="">
+                <div className="bg-white px-10 py-2.5 mb-4">
+                  <span className="text-lg">
+                    <img src="./src/assets/focuses.png" className="inline mr-4" />
+                    Disaster Risk Reduction and Management
+                  </span>
+                </div>
+                <div className="bg-white px-10 py-2.5 mb-4">
+                  <span className="text-lg">
+                    <img src="./src/assets/focuses.png" className="inline mr-4" />
+                    Disaster Risk Reduction and Management
+                  </span>
+                </div>
+                <div className="bg-white px-10 py-2.5 mb-4">
+                  <span className="text-lg">
+                    <img src="./src/assets/focuses.png" className="inline mr-4" />
+                    Disaster Risk Reduction and Management
+                  </span>
+                </div>
+
+                <div className="bg-white px-10 py-2.5 mb-4">
+                  <span className="text-lg">
+                    <img src="./src/assets/focuses.png" className="inline mr-4" />
+                    Disaster Risk Reduction and Management
+                  </span>
+                </div>
+                <div className="bg-white px-10 py-2.5 mb-4">
+                  <span className="text-lg">
+                    <img src="./src/assets/focuses.png" className="inline mr-4" />
+                    Disaster Risk Reduction and Management
+                  </span>
+                </div>
+              </div>
+              <div className="">
+                <div className="bg-white px-10 py-2.5 mb-4">
+                  <span className="text-lg">
+                    <img src="./src/assets/focuses.png" className="inline mr-4" />
+                    Disaster Risk Reduction and Management
+                  </span>
+                </div>
+                <div className="bg-white px-10 py-2.5 mb-4">
+                  <span className="text-lg">
+                    <img src="./src/assets/focuses.png" className="inline mr-4" />
+                    Disaster Risk Reduction and Management
+                  </span>
+                </div>
+                <div className="bg-white px-10 py-2.5 mb-4">
+                  <span className="text-lg">
+                    <img src="./src/assets/focuses.png" className="inline mr-4" />
+                    Disaster Risk Reduction and Management
+                  </span>
+                </div>
+
+                <div className="bg-white px-10 py-2.5 mb-4">
+                  <span className="text-lg">
+                    <img src="./src/assets/focuses.png" className="inline mr-4" />
+                    Disaster Risk Reduction and Management
+                  </span>
+                </div>
+                <div className="bg-white px-10 py-2.5 mb-4">
+                  <span className="text-lg">
+                    <img src="./src/assets/focuses.png" className="inline mr-4" />
+                    Disaster Risk Reduction and Management
+                  </span>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -29,5 +94,7 @@ export const FocusArea = () => {
           </div>
         </div>
       </div>
-    </div>)
+    </div >
+
+  )
 }

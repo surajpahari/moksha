@@ -64,9 +64,9 @@ export const Navbar = () => {
         </div>
         <div>
 
-          <div>
-            <div className="rounded m-2 mr-0 bg-red-400">
-              <div className="text-white p-1  pr-10">
+          <div className="mr-2">
+            <div className="rounded m-2 mr-0 bg-moksha-red cursor-pointer hover:bg-moksha-orange">
+              <div className="text-white p-1  ">
                 Let's talk
               </div>
             </div>

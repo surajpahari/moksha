@@ -3,23 +3,25 @@ import { faArrowDown } from "@fortawesome/free-solid-svg-icons"
 import { faCloud } from "@fortawesome/free-solid-svg-icons"
 export const ServiceCards = () => {
   return (
-    <div className='bg-sky-900 max-w-fit p-4 pt-10'>
+    <div className='bg-moksha-dark-blue max-w-fit p-4 pt-10'>
       <div className="flex-col">
         <div>
           <FontAwesomeIcon icon={faCloud} className="h-16 w-16" color="gray" />
         </div>
       </div>
-      <div>
-        <div className="text-sky-300 m-4">
+      <div className="w-full">
+        <div className="text-moksha-blue  text-xl font-semibold leading-6  m-4 mb-9">
           Web development
         </div>
-        <div className="text-white text-xs">
-          <div>
+        <div className="text-white text-sm">
+          <div className="pl-4">
             Lorem ipsum dolor sit amet, qui minim <br />minim sint cillum sint consectetur cupidatat.
           </div>
         </div>
-        <div className="text-right mt-4">
-          <FontAwesomeIcon icon={faArrowDown} className="h-10 w-10" color="gray" />
+        <div className="flex w-full">
+          <div>
+            <img src="./src/assets/arrow-down-right.svg" />
+          </div>
         </div>
       </div>
     </div>
