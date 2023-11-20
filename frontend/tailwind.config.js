@@ -13,6 +13,7 @@ export default {
         'moksha-blue': '#2686CE',
         'moksha-orange': '#FF7B1A',
         'moksha-red': '#FF5858',
+        'moksha-mid-blue': '#1E4A78',
         'moksha-dark-blue': '#171B2B',
         'moksha-gray': '#F2F2F2'
       }
