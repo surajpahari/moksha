@@ -1,15 +1,14 @@
 import './App.css'
-import { AboutUs } from './components/AboutUs'
-import { Banner } from './components/Banner'
-import { FocusArea } from './components/FocusArea'
 import { Navbar } from './components/Navbar'
-import { Services } from './components/Services'
-import { Collabroration } from './components/Collabroration'
+import { Banner } from './components/Home/Banner'
+import { Collabroration } from './components/Home/Collabroration'
 import { Footer } from './components/Footer'
-import { ApproachContent } from './components/Home/Approach/ApproachContent'
 import Approach from './components/Home/Approach'
+import { Services } from './components/Home/Services'
 import { KeyHighlight } from './components/Home/KeyHighlights'
 import LeaderShip from './components/Home/Leadership'
+import { FocusArea } from './components/Home/FocusArea'
+import { AboutUs } from './components/Home/AboutUs'
 
 function App() {
 
@@ -22,8 +21,8 @@ function App() {
         <Banner />
         <Services />
         <AboutUs />
-        <FocusArea />
         <Approach />
+        <FocusArea />
         <KeyHighlight />
         <LeaderShip />
         <Collabroration />

@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCloud } from "@fortawesome/free-solid-svg-icons"
-export const ServiceCards = () => {
+export const ServiceCard = () => {
   return (
     <div className='bg-moksha-dark-blue max-w-fit p-4 pt-10 cursor-pointer transition-colors'>
       <div className="flex-col">

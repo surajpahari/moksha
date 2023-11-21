@@ -3,7 +3,7 @@ export const ContentSection = (content:
   { title: string, details: any, subDetail: any, content: any }) => {
   return (
     <>
-      <div className="bg-white bg-dotted-pattern py-24">
+      <div className="py-24">
         <div>
           {/*header and intro for the services*/}
           <div className="w-full flex justify-center">

@@ -1,4 +1,3 @@
-
 export const Collabroration = () => {
   return (
     <div className='bg-moksha-mid-blue h-80 p-10'>
