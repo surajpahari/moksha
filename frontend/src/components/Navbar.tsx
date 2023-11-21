@@ -6,7 +6,7 @@ export const Navbar = () => {
     <div className="w-full text-black min-h-full">
       <div className="flex w-full  shadow-md h-14 min-h-max">
 
-        <div className="m-2 ml-6">
+        <div className="m-2 ml-16 flex justify-center items-center">
           <div className="font-[560] text-lg">
             Mokhsa
           </div>

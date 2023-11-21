@@ -1,9 +1,8 @@
 import { HighlightContent } from "./HighlightContent"
 export const highlightInfo = {
-  title: "OUR APPROACH",
+  title: "KEY HIGHLIGHTS",
   detials:
     <span>
-      hi
     </span>,
   subDetail:
     <span>

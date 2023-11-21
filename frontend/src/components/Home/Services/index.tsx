@@ -5,7 +5,7 @@ import { ServiceInfo } from './ServiceInfo'
 
 export const Services = (props: {}) => {
   return (
-    <div>
+    <div className='bg-moksha-gray'>
       <ContentSection content={ServiceInfo} />
     </div>
   )

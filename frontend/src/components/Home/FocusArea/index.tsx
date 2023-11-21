@@ -3,7 +3,7 @@ import { FocusInfo } from './FocusInfo'
 
 export const FocusArea = (props: {}) => {
   return (
-    <div>
+    <div className='bg-moksha-gray'>
       <ContentSection content={FocusInfo} />
     </div>
   )

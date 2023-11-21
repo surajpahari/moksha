@@ -5,7 +5,7 @@ import ContentSection from '../ContentSection'
 
 export const KeyHighlight = (props: {}) => {
   return (
-    <div>
+    <div className='bg-dotted-pattern'>
       <ContentSection content={highlightInfo} />
     </div>
   )

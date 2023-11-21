@@ -21,8 +21,8 @@ function App() {
         <Banner />
         <Services />
         <AboutUs />
-        <Approach />
         <FocusArea />
+        <Approach />
         <KeyHighlight />
         <LeaderShip />
         <Collabroration />

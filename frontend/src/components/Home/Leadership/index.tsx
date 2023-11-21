@@ -4,7 +4,7 @@ import ContentSection from "../ContentSection";
 
 export const LeaderShip = () => {
   return (
-    <div>
+    <div className="bg-dotted-pattern">
       <ContentSection content={LeaderShipInfo} />
     </div>
   )

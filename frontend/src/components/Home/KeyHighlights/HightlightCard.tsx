@@ -2,9 +2,9 @@ import React from 'react'
 
 export const HightlightCard = (props: {}) => {
   return (
-    <div className='flex w-full gap-20'>
+    <div className='flex w-full gap-20 bg-white'>
       <div className='grow flex justify-center items-center' >
-        <div className='flex flex-col'>
+        <div className='flex flex-col gap-6'>
           <div className='text-moksha-black text-2xl font-semibold leading-7'>
             GIS-Based Municipal Data Management
             <br />
@@ -21,7 +21,7 @@ export const HightlightCard = (props: {}) => {
           </div>
           <div className='flex gap-14 text-sm'>
             <div>
-              <div>
+              <div className='mb-1'>
                 <span className="text-moksha-blue font-semibold">
                   Client
                 </span>
@@ -57,7 +57,6 @@ export const HightlightCard = (props: {}) => {
                   </g>
                 </svg>
               </div>
-              <img src='./src/assets/arrow-down-right.svg' />
             </div>
           </div>
         </div>
