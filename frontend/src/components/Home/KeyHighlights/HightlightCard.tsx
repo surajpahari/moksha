@@ -2,16 +2,16 @@ import React from 'react'
 
 export const HightlightCard = (props: {}) => {
   return (
-    <div className='flex w-full'>
-      <div className='grow flex justify-center'>
+    <div className='flex w-full gap-20'>
+      <div className='grow flex justify-center items-center' >
         <div className='flex flex-col'>
-          <div className='text-moksha-black'>
+          <div className='text-moksha-black text-2xl font-semibold leading-7'>
             GIS-Based Municipal Data Management
             <br />
             And Mapping For Disaster Preparedness
           </div>
           <div>
-            <span className='text-xs'>
+            <span className='text-sm'>
               A GIS and mapping initiative to prepare ward level integrated Geo-database for
               <br />
               all project locations. Data collection method includes: training and mobilizing
@@ -19,15 +19,15 @@ export const HightlightCard = (props: {}) => {
               local youths, integration of data from multiple existing sources from multiple exi..
             </span>
           </div>
-          <div className='flex'>
+          <div className='flex gap-14 text-sm'>
             <div>
               <div>
-                <span>
+                <span className="text-moksha-blue font-semibold">
                   Client
                 </span>
               </div>
               <div>
-                <span>
+                <span className="text-moksha-black font-semibold leading-4">
                   CDF Dolakha for Bhimeshwor Municipality
                 </span>
               </div>
@@ -35,12 +35,12 @@ export const HightlightCard = (props: {}) => {
 
             <div>
               <div>
-                <span>
+                <span className="text-moksha-blue font-semibold">
                   Time Duration
                 </span>
               </div>
               <div>
-                <span>
+                <span className="text-moksha-black font-semibold leading-4">
                   2020-06-13 to 2022-19-02
                 </span>
               </div>

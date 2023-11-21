@@ -3,8 +3,8 @@ import { faCaretDown } from "@fortawesome/free-solid-svg-icons"
 
 export const Navbar = () => {
   return (
-    <div className="w-full text-black">
-      <div className="flex w-full shadow-md">
+    <div className="w-full text-black min-h-full">
+      <div className="flex w-full  shadow-md h-14 min-h-max">
 
         <div className="m-2 ml-6">
           <div className="font-[560] text-lg">
@@ -56,7 +56,7 @@ export const Navbar = () => {
             </div>
           </div>
 
-          <div className="cursor-pointer">
+          <div className="cursor-pointer text-medium">
             Blogs
           </div>
 

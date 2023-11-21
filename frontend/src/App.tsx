@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <div className='fixed w-full  h-[50px] z-10 bg-white'>
+      <div className='fixed w-full  min-h-[50px] z-10 bg-white'>
         <Navbar />
       </div>
       <div className='absolute w-full top-[50px] left-0 z-0 bg-white'>
