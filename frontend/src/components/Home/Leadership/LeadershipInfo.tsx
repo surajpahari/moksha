@@ -1,7 +1,6 @@
-import { ApproachContent } from './ApproachContent'
-
-export const approachInfo = {
-  title: "OUR APPROACH",
+import { LeadershipContent } from "./LeadershipContent"
+export const LeaderShipInfo = {
+  title: "Meet Our Leadership Team",
   details: '',
   subDetail:
     <span>
@@ -10,6 +9,6 @@ export const approachInfo = {
       impact multiple sectors.
     </span >
   ,
-  content: <ApproachContent />
+  content: <LeadershipContent />
 
 }

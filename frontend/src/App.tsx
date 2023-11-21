@@ -8,6 +8,8 @@ import { Collabroration } from './components/Collabroration'
 import { Footer } from './components/Footer'
 import { ApproachContent } from './components/Home/Approach/ApproachContent'
 import Approach from './components/Home/Approach'
+import { KeyHighlight } from './components/Home/KeyHighlights'
+import LeaderShip from './components/Home/Leadership'
 
 function App() {
 
@@ -21,9 +23,10 @@ function App() {
         <Services />
         <AboutUs />
         <FocusArea />
-        <ApproachContent />
-        <Collabroration />
         <Approach />
+        <KeyHighlight />
+        <LeaderShip />
+        <Collabroration />
         <Footer />
       </div>
 

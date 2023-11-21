@@ -1,8 +1,10 @@
-import { ApproachContent } from './ApproachContent'
-
-export const approachInfo = {
+import { HighlightContent } from "./HighlightContent"
+export const highlightInfo = {
   title: "OUR APPROACH",
-  details: '',
+  detials:
+    <span>
+      hi
+    </span>,
   subDetail:
     <span>
       Our work with the use of different tools and technologies can
@@ -10,6 +12,6 @@ export const approachInfo = {
       impact multiple sectors.
     </span >
   ,
-  content: <ApproachContent />
+  content: <HighlightContent />
 
 }

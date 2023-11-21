@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+.leadership-image{
+  border:1px solid red;
+border-radius: 137px 137px 200px 200px;
+}
