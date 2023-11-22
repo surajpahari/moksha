@@ -2,7 +2,7 @@ import React from 'react'
 
 export const HightlightCard = (props: {}) => {
   return (
-    <div className='flex w-full gap-20 bg-white'>
+    <div className='flex w-full gap-20 bg-white flex-wrap'>
       <div className='grow flex justify-center items-center' >
         <div className='flex flex-col gap-6'>
           <div className='text-moksha-black text-2xl font-semibold leading-7'>
@@ -47,13 +47,13 @@ export const HightlightCard = (props: {}) => {
             </div>
           </div>
           {/*arrow section*/}
-          <div className='flex w-full justify-end'>
+          <div className='flex justify-end m-w-fit'>
             <div>
               <div>
                 <svg width="63" height="64" viewBox="0 0 63 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g id="arrow-down-right" opacity="0.6">
-                    <path id="Vector" d="M18.375 18.6667L44.625 45.3334" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path id="Vector_2" d="M44.625 18.6667V45.3334H18.375" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path id="Vector" d="M18.375 18.6667L44.625 45.3334" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path id="Vector_2" d="M44.625 18.6667V45.3334H18.375" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                   </g>
                 </svg>
               </div>
@@ -63,8 +63,10 @@ export const HightlightCard = (props: {}) => {
       </div>
 
       {/*image part*/}
-      <div className='grow'>
-        <img src='./src/assets/hillside.png' />
+      <div className='grow flex justify-center'>
+        <div>
+          <img src='./src/assets/hillside.png' />
+        </div>
       </div>
 
     </div>

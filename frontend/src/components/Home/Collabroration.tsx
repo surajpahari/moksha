@@ -1,9 +1,9 @@
 export const Collabroration = () => {
   return (
-    <div className='bg-moksha-mid-blue h-80 p-10'>
-      <div className='flex h-full w-full'>
+    <div className='bg-moksha-mid-blue p-10 min-h-80'>
+      <div className='flex h-full w-full flex-wrap'>
 
-        <div className='flex items-center h-full grow '>
+        <div className='flex items-center justify-center h-full grow '>
           <div>
             <div className='text-white text-3xl font-semibold'>
               Let your goal be our next project
@@ -15,7 +15,7 @@ export const Collabroration = () => {
         </div>
 
         <div className='h-full '>
-          <div className='flex justify-center bg-white p-16 py-16 rounded-xl'>
+          <div className='flex justify-center items-center w-full bg-white p-16 py-16 rounded-xl'>
             <div>
               <div className='text-2xl font-[600] text-center mb-4 text-moksha-black'>
                 Seeking

@@ -4,9 +4,10 @@ import { FocusCard } from './FocusCard'
 export const FocusContent = (props: {}) => {
   return (
 
-    <div className="flex justify-center w-full gap-3 text-moksha-black">
+    <div className="flex justify-center w-full gap-3 text-moksha-black ">
       <div>
-        <FocusCard />
+      </div>
+      {/*
         <FocusCard />
         <FocusCard />
         <FocusCard />
@@ -19,6 +20,8 @@ export const FocusContent = (props: {}) => {
         <FocusCard />
         <FocusCard />
       </div>
+    </div>
+    */}
     </div>
   )
 }

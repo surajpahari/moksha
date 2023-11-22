@@ -7,6 +7,7 @@ import { Footer } from "../components/Footer";
 export const Layout = (props: {}) => {
   return (
     <>
+
       <div className='fixed w-full  min-h-[50px] z-10 bg-white'>
         <Navbar />
       </div>
@@ -14,6 +15,7 @@ export const Layout = (props: {}) => {
         <Outlet />
         <Collabroration />
         <Footer />
+
       </div>
     </>
   )
