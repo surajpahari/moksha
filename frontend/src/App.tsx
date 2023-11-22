@@ -1,33 +1,24 @@
 import './App.css'
 import { Navbar } from './components/Navbar'
-import { Banner } from './components/Home/Banner'
-import { Collabroration } from './components/Home/Collabroration'
-import { Footer } from './components/Footer'
-import Approach from './components/Home/Approach'
-import { Services } from './components/Home/Services'
-import { KeyHighlight } from './components/Home/KeyHighlights'
-import LeaderShip from './components/Home/Leadership'
-import { FocusArea } from './components/Home/FocusArea'
-import { AboutUs } from './components/Home/AboutUs'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Layout } from './Pages/Layout'
+import { Services } from './Pages/Services'
+import Home from './Pages/Home'
 
 function App() {
 
   return (
     <>
-      <div className='fixed w-full  min-h-[50px] z-10 bg-white'>
-        <Navbar />
-      </div>
-      <div className='absolute w-full top-[50px] left-0 z-0 bg-white'>
-        <Banner />
-        <Services />
-        <AboutUs />
-        <FocusArea />
-        <Approach />
-        <KeyHighlight />
-        <LeaderShip />
-        <Collabroration />
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="services" element={<Services />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+
+
 
     </>
   )
