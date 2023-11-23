@@ -3,7 +3,7 @@ import { LeaderShipCard } from './LeaderShipCard'
 
 export const LeadershipContent = (props: {}) => {
   return (
-    <div className='flex w-full gap-5 flex-wrap'>
+    <div className='flex w-full justify-center gap-5 flex-wrap'>
       <LeaderShipCard />
       <LeaderShipCard />
       <LeaderShipCard />

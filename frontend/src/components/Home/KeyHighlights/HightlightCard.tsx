@@ -4,7 +4,7 @@ export const HightlightCard = (props: {}) => {
   return (
     <div className='flex w-full gap-20 bg-white flex-wrap'>
       <div className='grow flex justify-center items-center' >
-        <div className='flex flex-col gap-6'>
+        <div className='flex flex-col gap-6 p-2'>
           <div className='text-moksha-black text-2xl font-semibold leading-7'>
             GIS-Based Municipal Data Management
             <br />

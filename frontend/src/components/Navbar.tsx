@@ -1,20 +1,26 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons"
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
+import { BarMenu } from "./BarMenu";
 export const Navbar = () => {
   return (
     <div className="w-full text-black min-h-full">
       <div className="flex w-full  shadow-md h-14 min-h-max">
+        <div className="md:hidden flex justify-center items-center">
+          <BarMenu />
+        </div>
 
-        <div className="m-2 ml-16 flex justify-center items-center">
+        <div className="m-2 ml-16 flex justify-center items-center md:grow-0 grow">
           <div className="font-[560] text-lg">
-            <Link to="/">Moksha</Link>
+            <NavLink to="/">Moksha</NavLink>
           </div>
         </div>
 
-        <div className="flex grow items-center justify-center gap-8">
+        <div className="grow items-center justify-center gap-8 md:flex hidden">
           <div className="cursor-pointer">
-            <Link to="/services" >Services</Link>
+            <NavLink to="/services" className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "text-moksha-orange" : ""
+            } >Services</NavLink>
           </div>
           <div>
             <div className="dropdown dropdown-hover">
@@ -23,7 +29,7 @@ export const Navbar = () => {
                 <FontAwesomeIcon icon={faCaretDown} className="text-sm" />
               </label>
               <ul tabIndex={0} className="dropdown-content z-[1]  text-black menu p-2 shadow bg-white  w-48">
-                <li><a>Item 1</a></li>
+                <li><NavLink to="/protfolio">Item 1</NavLink></li>
                 <li><a>Item 2</a></li>
               </ul>
             </div>
