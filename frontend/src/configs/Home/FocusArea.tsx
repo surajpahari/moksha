@@ -11,25 +11,32 @@ export default const FocusAreaConfig = {
       {
         icon: '',
         detial: "Disaster Risk Reduction and Management"
-      }, {
+      },
+      {
         icon: '',
         detial: "Disaster Risk Reduction and Management"
-      }, {
+      },
+      {
         icon: '',
         detial: "Disaster Risk Reduction and Management"
-      }, {
+      },
+      {
         icon: '',
         detial: "Disaster Risk Reduction and Management"
-      }, {
+      },
+      {
         icon: '',
         detial: "Disaster Risk Reduction and Management"
-      }, {
+      },
+      {
         icon: '',
         detial: "Disaster Risk Reduction and Management"
-      }, {
+      },
+      {
         icon: '',
         detial: "Disaster Risk Reduction and Management"
-      }, {
+      },
+      {
         icon: '',
         detial: "Disaster Risk Reduction and Management"
       }, {

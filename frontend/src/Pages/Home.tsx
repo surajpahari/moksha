@@ -9,16 +9,11 @@ import { FocusArea } from '../components/Home/FocusArea'
 import { AboutUs } from '../components/Home/AboutUs'
 import { Services } from '../components/Home/Services'
 
-const Home = ({ HomeConfig: { ServiceConfig } }: any) => {
+const Home = () => {
   return (
     <div>
       <Banner />
-      <Services ServiceConfig={ServiceConfig} />
-      <AboutUs />
-      <FocusArea />
-      <Approach />
-      <KeyHighlight />
-      <LeaderShip />
+      <Services />
     </div>
   )
 }

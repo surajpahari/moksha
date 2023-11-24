@@ -5,7 +5,6 @@ import { Layout } from './Pages/Layout'
 import { Services } from './Pages/Services'
 import Home from './Pages/Home'
 
-import HomeConfig from './configs/Home/config';
 import { Protfolio } from './Pages/Protfolio/Protfolio';
 import { View } from './Pages/Protfolio/View';
 
@@ -16,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<Home HomeConfig={HomeConfig} />} />
+            <Route index element={<Home />} />
             <Route path="services" element={<Services />} />
             <Route path="protfolio" element={<Protfolio />} />
             <Route path="view-protfolio" element={<View />} />

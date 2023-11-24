@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCloud } from "@fortawesome/free-solid-svg-icons"
-export const ServiceCard = (ServiceCardInfo: any) => {
+export const ServiceCard = ({ ServiceCardInfo }: any) => {
+  console.log(ServiceCardInfo)
   const info = {
     icon: {
       faCloud
