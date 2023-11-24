@@ -1,5 +1,4 @@
-import React from 'react'
-import { KeyHighlight } from '../components/Home/KeyHighlights'
+import { KeyHighlight } from '../../components/Home/KeyHighlights'
 
 export const Protfolio = (props: {}) => {
   return (

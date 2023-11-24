@@ -5,5 +5,8 @@
 .leadership-image{
 border-radius: 137px 137px 200px 200px;
 }
-body{
+ul.checklist-style{
+  list-style-image:url('./assets/check-square.png')
 }
+
+

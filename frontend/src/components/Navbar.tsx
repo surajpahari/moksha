@@ -23,7 +23,11 @@ export const Navbar = () => {
             } >Services</NavLink>
           </div>
           <div>
-            <div className="dropdown dropdown-hover">
+            <NavLink to="/protfolio" className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "text-moksha-orange" : ""
+            } >Protfolio</NavLink>
+
+            {/*<div className="dropdown dropdown-hover">
               <label tabIndex={0} className="m-1 cursor-pointer">
                 Protfolio&nbsp;
                 <FontAwesomeIcon icon={faCaretDown} className="text-sm" />
@@ -33,6 +37,7 @@ export const Navbar = () => {
                 <li><a>Item 2</a></li>
               </ul>
             </div>
+            */}
           </div>
 
 

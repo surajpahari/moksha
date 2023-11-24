@@ -1,9 +1,8 @@
-import React from 'react'
 import ContentSection from '../ContentSection'
-import { ServiceInfo } from './ServiceInfo'
 
 
-export const Services = (props: {}) => {
+export const Services = ({ ServiceConfig }: any) => {
+  console.log(ServiceConfig)
   return (
     <div className='bg-moksha-gray'>
       <ContentSection content={ServiceInfo} />

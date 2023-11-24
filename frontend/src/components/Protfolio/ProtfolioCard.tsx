@@ -1,10 +1,14 @@
 import React from 'react'
-import { Outlet, Link } from "react-router-dom";
-export const HightlightCard = (props: {}) => {
+import { Link } from 'react-router-dom'
+
+export const ProtfolioCard = (props: {}) => {
   return (
     <div className='flex w-full gap-20 bg-white flex-wrap'>
       <div className='grow flex justify-center items-center' >
         <div className='flex flex-col gap-6 p-2'>
+          <div>
+            Back
+          </div>
           <div className='text-moksha-black text-2xl font-semibold leading-7'>
             GIS-Based Municipal Data Management
             <br />
@@ -47,17 +51,8 @@ export const HightlightCard = (props: {}) => {
             </div>
           </div>
           {/*arrow section*/}
-          <div className='flex justify-end m-w-fit'>
-            <div>
-              <Link to={'/view-protfolio'}>
-                <svg width="63" height="64" viewBox="0 0 63 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g id="arrow-down-right" opacity="0.6">
-                    <path id="Vector" d="M18.375 18.6667L44.625 45.3334" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                    <path id="Vector_2" d="M44.625 18.6667V45.3334H18.375" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  </g>
-                </svg>
-              </Link>
-            </div>
+          <div>
+            Scroll Down
           </div>
         </div>
       </div>
@@ -70,5 +65,6 @@ export const HightlightCard = (props: {}) => {
       </div>
 
     </div>
+
   )
 }

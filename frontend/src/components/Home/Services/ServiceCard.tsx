@@ -1,6 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCloud } from "@fortawesome/free-solid-svg-icons"
-export const ServiceCard = () => {
+export const ServiceCard = (ServiceCardInfo: any) => {
+  const info = {
+    icon: {
+      faCloud
+    },
+    title: "Web Development",
+    description: "Upsela has been featured nationally in 2023 for our marketing strategies"
+  }
   return (
     <div className='bg-moksha-dark-blue max-w-fit p-4 pt-10 cursor-pointer transition-colors'>
       <div className="flex-col">
@@ -10,11 +17,13 @@ export const ServiceCard = () => {
       </div>
       <div className="w-full">
         <div className="text-moksha-blue  text-xl font-semibold leading-6  m-4 mb-9">
-          Web development
+          {info.title}
         </div>
-        <div className="text-white text-sm">
-          <div className="pl-4">
-            Lorem ipsum dolor sit amet, qui minim <br />minim sint cillum sint consectetur cupidatat.
+        <div className="text-white text-sm mb-5">
+          <div className="pl-4 max-w-[295px]">
+            <span>
+              Upsela has been featured nationally in 2023 for our marketing strategies
+            </span>
           </div>
         </div>
         <div className="flex w-full justify-end">

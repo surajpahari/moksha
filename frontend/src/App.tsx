@@ -4,7 +4,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Layout } from './Pages/Layout'
 import { Services } from './Pages/Services'
 import Home from './Pages/Home'
-import { Protfolio } from './Pages/Protfolio';
+
+import HomeConfig from './configs/Home/config';
+import { Protfolio } from './Pages/Protfolio/Protfolio';
+import { View } from './Pages/Protfolio/View';
 
 function App() {
 
@@ -13,12 +16,13 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
+            <Route index element={<Home HomeConfig={HomeConfig} />} />
             <Route path="services" element={<Services />} />
             <Route path="protfolio" element={<Protfolio />} />
+            <Route path="view-protfolio" element={<View />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter >
 
 
 
