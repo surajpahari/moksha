@@ -5,8 +5,6 @@ export const Leadership = {
     image: './src/assets/ceo.png',
     name: 'Dave Martin',
     positions: 'CEO',
-
-
   }]
 
 }
