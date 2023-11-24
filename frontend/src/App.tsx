@@ -1,9 +1,9 @@
 import './App.css'
-import { Navbar } from './components/Navbar'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Layout } from './Pages/Layout'
 import { Services } from './Pages/Services'
 import Home from './Pages/Home'
+import { Contact } from './Pages/Contact';
 
 import { Protfolio } from './Pages/Protfolio/Protfolio';
 import { View } from './Pages/Protfolio/View';
@@ -19,6 +19,7 @@ function App() {
             <Route path="services" element={<Services />} />
             <Route path="protfolio" element={<Protfolio />} />
             <Route path="view-protfolio" element={<View />} />
+            <Route path="contact" element={<Contact />} />
           </Route>
         </Routes>
       </BrowserRouter >

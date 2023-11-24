@@ -15,6 +15,7 @@ const Home = () => {
       <Banner />
       <Services />
       <FocusArea />
+      <KeyHighlight />
       <LeaderShip />
     </div>
   )

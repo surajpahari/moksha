@@ -1,22 +1,16 @@
-import React from 'react'
-import { Outlet, Link } from "react-router-dom";
-export const HightlightCard = (props: {}) => {
+import { Link } from "react-router-dom";
+export const HightlightCard = ({ card: { title, description, client, time, link } }: any) => {
   return (
     <div className='flex w-full gap-20 bg-white flex-wrap'>
       <div className='grow flex justify-center items-center' >
-        <div className='flex flex-col gap-6 p-2'>
+        <div className='flex flex-col gap-6 p-2 max-w-[600px]'>
           <div className='text-moksha-black text-2xl font-semibold leading-7'>
-            GIS-Based Municipal Data Management
-            <br />
-            And Mapping For Disaster Preparedness
+            {title}
           </div>
           <div>
             <span className='text-sm'>
-              A GIS and mapping initiative to prepare ward level integrated Geo-database for
-              <br />
-              all project locations. Data collection method includes: training and mobilizing
-              <br />
-              local youths, integration of data from multiple existing sources from multiple exi..
+              {description}
+
             </span>
           </div>
           <div className='flex gap-14 text-sm'>
@@ -28,7 +22,7 @@ export const HightlightCard = (props: {}) => {
               </div>
               <div>
                 <span className="text-moksha-black font-semibold leading-4">
-                  CDF Dolakha for Bhimeshwor Municipality
+                  {client}
                 </span>
               </div>
             </div>
@@ -41,7 +35,7 @@ export const HightlightCard = (props: {}) => {
               </div>
               <div>
                 <span className="text-moksha-black font-semibold leading-4">
-                  2020-06-13 to 2022-19-02
+                  {time}
                 </span>
               </div>
             </div>

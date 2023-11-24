@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons"
-import { Outlet, NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { BarMenu } from "./BarMenu";
 export const Navbar = () => {
   return (
@@ -76,11 +76,13 @@ export const Navbar = () => {
         <div>
 
           <div className="mr-2">
-            <div className="rounded m-2 mr-0 bg-moksha-red cursor-pointer hover:bg-moksha-orange">
-              <div className="text-white p-1  ">
-                Let's talk
+            <Link to='/contact'>
+              <div className="rounded m-2 mr-0 bg-moksha-red cursor-pointer hover:bg-moksha-orange">
+                <div className="text-white p-1  ">
+                  Let's talk
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
 
         </div>
