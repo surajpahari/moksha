@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const LeaderShipCard = (props: {}) => {
+export const LeaderShipCard = ({ card: { name, position } }: any) => {
   return (
     <div className='flex flex-col items-center justify-center  gap-6'>
       <div className='relative leadership-img'>
@@ -15,11 +15,11 @@ export const LeaderShipCard = (props: {}) => {
       </div>
       <div className='text-center text-moksha-black'>
         <span className='font-medium'>
-          Dave Martin
+          {name}
           <br />
         </span>
         <span className='text-sm'>
-          CEO
+          {position}
         </span>
       </div>
 
