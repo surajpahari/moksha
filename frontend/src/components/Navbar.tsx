@@ -23,9 +23,11 @@ export const Navbar = () => {
             } >Services</NavLink>
           </div>
           <div>
-            <NavLink to="/protfolio" className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "text-moksha-orange" : ""
-            } >Protfolio</NavLink>
+            <NavLink to="/protfolio"
+              preventScrollReset={false}
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-moksha-orange" : ""
+              } >Protfolio</NavLink>
 
             {/*<div className="dropdown dropdown-hover">
               <label tabIndex={0} className="m-1 cursor-pointer">

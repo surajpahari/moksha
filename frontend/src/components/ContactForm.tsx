@@ -30,7 +30,10 @@ export const ContactForm = (props: {}) => {
             <div className='flex w-full justify-center items-center'>
               <div className='w-full max-w-[630px]'>
                 <div className='mb-4'>
-                  Email Address
+                  {/*icond for the mail end*/}
+                  <span>
+                    Email Address
+                  </span>
                 </div>
                 <div className='mb-8 text-xl flex '>
                   <input name="fullName"

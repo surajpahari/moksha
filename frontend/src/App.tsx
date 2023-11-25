@@ -7,6 +7,7 @@ import { Contact } from './Pages/Contact';
 
 import { Protfolio } from './Pages/Protfolio/Protfolio';
 import { View } from './Pages/Protfolio/View';
+import ScrollToTop from './components/helpers/ScrollToTop';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
             <Route path="contact" element={<Contact />} />
           </Route>
         </Routes>
+        <ScrollToTop />
       </BrowserRouter >
 
 

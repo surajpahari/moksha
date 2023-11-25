@@ -1,0 +1,14 @@
+<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon">
+<circle id="Ellipse 9" cx="17.5" cy="17.5" r="17.5" fill="white"/>
+<g id="mail" clip-path="url(#clip0_121_2546)">
+<path id="Vector" d="M12.1527 12.1528H22.8472C23.5824 12.1528 24.184 12.7543 24.184 13.4896V21.5104C24.184 22.2457 23.5824 22.8472 22.8472 22.8472H12.1527C11.4175 22.8472 10.8159 22.2457 10.8159 21.5104V13.4896C10.8159 12.7543 11.4175 12.1528 12.1527 12.1528Z" stroke="#131623" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M24.184 13.4896L17.4999 18.1684L10.8159 13.4896" stroke="#131623" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_121_2546">
+<rect width="16.0417" height="16.0417" fill="white" transform="translate(9.479 9.47917)"/>
+</clipPath>
+</defs>
+</svg>
