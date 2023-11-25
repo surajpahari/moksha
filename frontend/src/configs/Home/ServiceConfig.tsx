@@ -1,6 +1,6 @@
 const ServiceConfig = {
   title: 'SERVICES',
-  subTitle: "GEOMETRIC Excellence Unleased",
+  subTitle: "Geomatics Excellence Unleased",
   tagLine: "Our work with the use of different tools and technologies can impact multiple sectors.",
   cards: [
     {

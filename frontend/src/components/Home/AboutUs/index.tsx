@@ -1,10 +1,16 @@
 import ContentSection from '../ContentSection'
-import { AboutInfo } from './AboutInfo'
+import { AboutUsConfig } from '../../../configs/Home/AboutUsConfig'
+import { AboutContent } from './AboutContent'
 
 export const AboutUs = (props: {}) => {
   return (
     <div className='bg-dotted-pattern'>
-      <ContentSection content={AboutInfo} />
+      <ContentSection
+        title={AboutUsConfig.title}
+        subTitle={AboutUsConfig.subTitle}
+        tagLine={AboutUsConfig.tagLine}
+        content={<AboutContent />}
+      />
     </div>
   )
 }

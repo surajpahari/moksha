@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const AboutCard = (props: {}) => {
+export const AboutCard = ({ card: { icon, title } }: any) => {
   return (
     <div className="bg-moksha-blue p-6 rounded">
       <div className="mb-4">
@@ -8,7 +8,7 @@ export const AboutCard = (props: {}) => {
       </div>
       <div className="text-center text-white">
         <span>
-          Agility
+          {title}
         </span>
       </div>
     </div>

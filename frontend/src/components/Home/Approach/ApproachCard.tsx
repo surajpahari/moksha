@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ApproachCard = () => {
+export const ApproachCard = ({ card: { title, icon } }: any) => {
   return (
     <div>
       <div className='bg-white flex justify-center'>
@@ -8,13 +8,9 @@ export const ApproachCard = () => {
           <div className=' flex justify-center mb-6'>
             <img src='./src/assets/focuses.png' />
           </div>
-          <div className='text-center text-moksha-black font-medium text-base' >
+          <div className='text-center text-moksha-black font-medium text-base max-w-[193px]' >
             <span>
-              Participatory Approach
-              <br />
-              Backed by
-              <br />
-              Scientific Methods
+              {title}
             </span>
           </div>
         </div>
