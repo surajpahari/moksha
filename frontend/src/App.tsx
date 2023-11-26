@@ -8,6 +8,7 @@ import { Contact } from './Pages/Contact';
 import { Protfolio } from './Pages/Protfolio/Protfolio';
 import { View } from './Pages/Protfolio/View';
 import ScrollToTop from './components/helpers/ScrollToTop';
+import { Blog } from './Pages/Blog';
 
 function App() {
 

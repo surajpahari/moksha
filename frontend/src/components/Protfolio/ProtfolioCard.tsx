@@ -1,13 +1,33 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useRef } from 'react'
 
-export const ProtfolioCard = (props: {}) => {
+export const ProtfolioCard = ({ content: HTMLElement }) => {
+  const contentSectionRef = useRef<HTMLElement | null>(content)
+
+  const scrollToMainSection = () => {
+    if (contentSectionRef.current) {
+      contentSectionRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+
+  }
+
   return (
     <div className='flex w-full gap-20 bg-white flex-wrap'>
       <div className='grow flex justify-center items-center' >
         <div className='flex flex-col gap-6 p-2'>
-          <div>
-            Back
+          <div className='flex items-center cursor-pointer mb-16'>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                <path d="M12.6665 8.5H3.33317" stroke="#999999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M8 3.83334L3.33333 8.50001L8 13.1667" stroke="#999999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div>
+              <span>
+                Back
+              </span>
+            </div>
           </div>
           <div className='text-moksha-black text-2xl font-semibold leading-7'>
             GIS-Based Municipal Data Management
@@ -51,8 +71,18 @@ export const ProtfolioCard = (props: {}) => {
             </div>
           </div>
           {/*arrow section*/}
-          <div>
-            Scroll Down
+          <div className='flex cursor-pointer items-center mt-20'>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                <path d="M7.99951 3.83334L7.99951 13.1667" stroke="#999999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M3.33301 8.49984L7.99967 13.1665L12.6663 8.49984" stroke="#999999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div>
+              <span>
+                Scroll Down
+              </span>
+            </div>
           </div>
         </div>
       </div>

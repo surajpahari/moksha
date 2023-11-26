@@ -1,6 +1,8 @@
 import { KeyHighlight } from '../../components/Home/KeyHighlights'
+import useScrollPosition from '../../components/helpers/hooks/useScrollPosition'
 
 export const Protfolio = (props: {}) => {
+  useScrollPosition("protfolio")
   return (
     <div className='py-20 bg-white'>
       <div className="w-full flex justify-center">
@@ -15,7 +17,6 @@ export const Protfolio = (props: {}) => {
                 <br />
                 the works we are proud of.
               </span>
-
               SERVICES
               Geomatics Excellence Unleashed
             </div>
